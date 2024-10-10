@@ -1,0 +1,77 @@
+/* Place your CSS styles in this file */
+
+@font-face {
+    font-family: 'MontyB';
+    src: url('Montserrat-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Monty';
+    src: url('Montserrat-Regular.ttf') format('truetype');
+  }
+  
+  body {
+      background-color: #E0E0E0;
+  }
+  
+  h1 {
+      font-family: 'MontyB';
+      color: #212121;
+      text-align: center;
+      font-weight: bold;
+  }
+  
+  h4 {
+      font-family: 'Monty';
+      color: #212121;
+      text-align: center;
+  }
+  
+  .h4panel {
+      background-color: #2196F3;
+      border-radius: 10px;
+      display: inline-block;
+      padding: 5px 10px; 
+  }
+  
+  p {
+      font-family: 'Monty';
+      color: #212121;
+      text-align: center;
+  }
+  
+  .ppanel {
+      background-color: #2196F3;
+      border-radius: 10px;
+      display: inline-block;
+      padding: 5px 10px; 
+  }
+  
+  label {
+      font-family: 'Monty';
+      color: #212121;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  input {
+      font-family: 'Monty';
+      background-color: #FF5722;
+      color: #212121;
+      border-radius: 10px;
+      padding-left: 0px;
+      padding: 5px;
+  }
+  
+  textarea {
+      font-family: 'Monty';
+      background-color: #FF5722;
+      color: #212121;
+      border-radius: 10px;
+      padding-left: 0px;
+      padding: 5px;
+  }
